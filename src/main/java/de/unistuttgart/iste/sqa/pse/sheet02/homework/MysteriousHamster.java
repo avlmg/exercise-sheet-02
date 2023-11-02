@@ -29,7 +29,7 @@ public final class MysteriousHamster {
 	}
 
 	/**
-	 * Walk one step and add it to the count. Return a String with the amount of steps taken.
+	 * Walk one step and add it to the counter. Return a String with the amount of steps taken.
 	 */
 	void doSomething2() {
 		hamster.move();
@@ -83,7 +83,7 @@ public final class MysteriousHamster {
 	}
 
 	/**
-	 * Move one step and add it to the count. Leave all the grains from the Hamsters mouth in one tile.
+	 * Move one step and add it to the counter. Leave all the grains from the Hamsters mouth in one tile.
 	 * Take another step. If the Hamster lost all grains will return a string explaining it was too fast.
 	 */
 	void doSomething9() {
