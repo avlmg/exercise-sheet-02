@@ -36,19 +36,85 @@ public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 		paule.turnLeft();
 
 		// You can remove this line
-		paule.write("I do not know how to continue:'(");
+		// paule.write("I do not know how to continue:'(");
 
-		// Move to the second grain
-		// TODO:implement
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
 
 		// Pick up the second grain
 		// TODO:implement
+		paule.pickGrain();
 
-		// Add further steps (comment + code) to collect all grains!
+		// Move to the third grain
 		// TODO:implement
+		paule.turnLeft();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+
+		// Pick up the third grain
+		// TODO:implement
+		paule.pickGrain();
+
+		// Move and pick all the grains in (1,6)
+		// TODO:implement
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.pickGrain();
+		paule.pickGrain();
+		paule.pickGrain();
+
+		// Move to the cave
+		// TODO:implement
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.pickGrain();
 
 		// Put down all grains in the cave
 		// TODO:implement
+		while (!paule.mouthEmpty())
+			paule.putGrain();
 
 	}
 }
