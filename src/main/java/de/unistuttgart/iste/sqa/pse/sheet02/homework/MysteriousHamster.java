@@ -24,14 +24,14 @@ public final class MysteriousHamster {
 	/**
 	 * This mysterious method makes the Hamster turn left.
 	 */
-	void doSomething1() {
+	void lookLeft() {
 		hamster.turnLeft();
 	}
 
 	/**
 	 * Walk one step and add it to the counter. Return a String with the amount of steps taken.
 	 */
-	void doSomething2() {
+	void moveCounter() {
 		hamster.move();
 		stepCounter++;
 		hamster.write("I have already walked " + stepCounter + " steps.");
@@ -40,7 +40,7 @@ public final class MysteriousHamster {
 	/**
 	 * Turn to opposite direction.
 	 */
-	void doSomething3() {
+	void lookOppositeSide() {
 		hamster.turnLeft();
 		hamster.turnLeft();
 	}
@@ -48,7 +48,7 @@ public final class MysteriousHamster {
 	/**
 	 * Turn to right. Example: If it looks to the East, will look South.
 	 */
-	void doSomething4() {
+	void lookRight() {
 		hamster.turnLeft();
 		hamster.turnLeft();
 		hamster.turnLeft();
@@ -57,28 +57,28 @@ public final class MysteriousHamster {
 	/**
 	 * Return the value of steps taken.
 	 */
-	int doSomething5() {
+	int counterValue() {
 		return stepCounter;
 	}
 
 	/**
 	 * Print the value of steps taken as string.
 	 */
-	void doSomething6() {
+	void stepsTaken() {
 		hamster.write(stepCounter.toString());
 	}
 
 	/**
 	 * Pick up a grain.
 	 */
-	void doSomething7() {
+	void eat() {
 		hamster.pickGrain();
 	}
 
 	/**
 	 * Return a string indicating when the Hamster is done.
 	 */
-	void doSomething8() {
+	void finished() {
 		hamster.write("I'm done! :)");
 	}
 
@@ -86,7 +86,7 @@ public final class MysteriousHamster {
 	 * Move one step and add it to the counter. Leave all the grains from the Hamsters mouth in one tile.
 	 * Take another step. If the Hamster lost all grains will return a string explaining it was too fast.
 	 */
-	void doSomething9() {
+	void hamsterFurious() {
 		hamster.move();
 		stepCounter++;
 		boolean hadGrain = !hamster.mouthEmpty();
