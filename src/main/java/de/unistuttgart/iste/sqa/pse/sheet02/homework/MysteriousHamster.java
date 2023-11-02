@@ -86,7 +86,7 @@ public final class MysteriousHamster {
 	 * Move one step and add it to the counter. Leave all the grains from the Hamsters mouth in one tile.
 	 * Take another step. If the Hamster lost all grains will return a string explaining it was too fast.
 	 */
-	void hamsterFurious() {
+	void carelessWalk() {
 		hamster.move();
 		stepCounter++;
 		boolean hadGrain = !hamster.mouthEmpty();

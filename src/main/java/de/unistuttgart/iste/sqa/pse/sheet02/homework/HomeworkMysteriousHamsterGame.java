@@ -13,8 +13,8 @@ public final class HomeworkMysteriousHamsterGame extends InternalHomeworkMysteri
 		mysteriousPaule.moveCounter();
 		mysteriousPaule.write("Executing operation: lookRight()");
 		mysteriousPaule.lookRight();
-		mysteriousPaule.write("Executing operation: hamsterFurious()");
-		mysteriousPaule.hamsterFurious();
+		mysteriousPaule.write("Executing operation: carelessWalk()");
+		mysteriousPaule.carelessWalk();
 		mysteriousPaule.write("Executing operation: moveCounter()");
 		mysteriousPaule.moveCounter();
 		mysteriousPaule.write("Executing operation: lookLeft()");
@@ -29,8 +29,8 @@ public final class HomeworkMysteriousHamsterGame extends InternalHomeworkMysteri
 		mysteriousPaule.moveCounter();
 		mysteriousPaule.write("Executing operation: lookRight()");
 		mysteriousPaule.lookRight();
-		mysteriousPaule.write("Executing operation: hamsterFurious()");
-		mysteriousPaule.hamsterFurious();
+		mysteriousPaule.write("Executing operation: carelessWalk()");
+		mysteriousPaule.carelessWalk();
 		mysteriousPaule.write("Executing operation: lookLeft()");
 		mysteriousPaule.lookLeft();
 		mysteriousPaule.write("Executing operation: moveCounter()");
@@ -49,8 +49,8 @@ public final class HomeworkMysteriousHamsterGame extends InternalHomeworkMysteri
 		mysteriousPaule.moveCounter();
 		mysteriousPaule.write("Executing operation: lookRight()");
 		mysteriousPaule.lookRight();
-		mysteriousPaule.write("Executing operation: hamsterFurious()");
-		mysteriousPaule.hamsterFurious();
+		mysteriousPaule.write("Executing operation: carelessWalk()");
+		mysteriousPaule.carelessWalk();
 		mysteriousPaule.write("Executing operation: lookOppositeSide()");
 		mysteriousPaule.lookOppositeSide();
 		mysteriousPaule.write("Executing operation: moveCounter()");
